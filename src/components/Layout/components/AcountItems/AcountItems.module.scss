@@ -1,0 +1,37 @@
+.wrapper {
+    padding: 5px 16px;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    &:hover {
+        background: rgba(22, 24, 35, 0.03);
+    }
+}
+.avatar {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.content {
+    flex: 1;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.acount-name {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.acount-info {
+    font-size: 1.4rem;
+    color: #16182380;
+}
+.verify {
+    color: #20d5ec;
+    width: 14px;
+    height: 14px;
+    padding-left: 4px;
+    outline: none;
+    border: none;
+}
